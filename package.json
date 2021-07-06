@@ -1,0 +1,30 @@
+{
+  "name": "protein-search",
+  "version": "0.0.1",
+  "description": "Search the PIR-International protein sequence database for a keyword",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonpath": "^1.1.1",
+    "jsonpath-plus": "^5.1.0",
+    "node-xml-stream": "^1.0.2",
+    "nodemon": "^2.0.9",
+    "sax": "^1.2.4",
+    "saxpath": "^0.6.5",
+    "xml-stream": "^0.4.5",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*/**.json",
+      "docs/*"
+    ],
+    "delay": 2500
+  }
+}
