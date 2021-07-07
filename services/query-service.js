@@ -25,7 +25,7 @@ const packResponse = (data, page) => {
         json: data,
     })
     const processedItems = paginatedItems.map(item => ({
-        ...item,
+        name: item.name,
         authors: item.authors.map(authorItem => authorItem.author),
         keywords: item.keywords.map(keywordItem => keywordItem.keyword),
     }))
